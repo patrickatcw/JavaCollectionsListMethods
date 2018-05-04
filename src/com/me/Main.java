@@ -48,6 +48,14 @@ public class Main {
         printList(theater.seats);
         //run
 
+        //step 42 more in collections that could e useful
+        //min and max
+        Theater.Seat minSeat = Collections.min(seatCopy);
+        Theater.Seat maxSeat = Collections.max(seatCopy);
+        System.out.println("Min seat number is " + minSeat.getSeatNumber());
+        System.out.println("Max seat number is " + maxSeat.getSeatNumber());
+        //run
+
     }
 
     //step 37 method that prints out the list
