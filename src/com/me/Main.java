@@ -40,6 +40,14 @@ public class Main {
         printList(theater.seats);
         //run
 
+        //step 41 a shuffle method we can use
+        Collections.shuffle(seatCopy);
+        System.out.println("Printing seatCopy, shuffled");
+        printList(seatCopy);
+        System.out.println("Printing theater.seat");
+        printList(theater.seats);
+        //run
+
     }
 
     //step 37 method that prints out the list
