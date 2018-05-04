@@ -56,6 +56,12 @@ public class Main {
         System.out.println("Max seat number is " + maxSeat.getSeatNumber());
         //run
 
+        //step 44 calling sort method
+        sortList(seatCopy);
+        System.out.println("Printing sorted seatCopy");
+        printList(seatCopy);
+        //run
+
     }
 
     //step 37 method that prints out the list
@@ -69,5 +75,15 @@ public class Main {
 
     }
 
+    //step 43 sortlist method, a variation of the bubble sort
+    public static void sortList (List < ? extends Theater.Seat> list) {
+        for (int i = 0; i < list.size() - 1; i++) {
+            for (int j = i + 1; j < list.size(); j++) {
+                if (list.get(i).compareTo(list.get(j)) > 0) {
+                    Collections.swap(list, i, j);
+                }
+            }
+        }
+    }
 
 }
