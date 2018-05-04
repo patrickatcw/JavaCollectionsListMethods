@@ -1,6 +1,7 @@
 package com.me;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 //initial code from JavaCollectionsAndBinarySearch
@@ -30,6 +31,14 @@ public class Main {
             /*Seat A02 is reserved
             .......Seat is already reserves*/
         }
+
+        //step 40 showing that arraylists are separate
+        Collections.reverse(seatCopy);
+        System.out.println("Printing seatCopy");
+        printList(seatCopy);
+        System.out.println("Printing theater.seat");
+        printList(theater.seats);
+        //run
 
     }
 
