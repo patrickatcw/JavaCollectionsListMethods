@@ -27,6 +27,7 @@ public class Theater {
 
     //step 24 change back to list and arraylist
     //private List<Seat> seats = new ArrayList<>();
+
     //step 36 make this public, then to main for step 37
     public List<Seat> seats = new ArrayList<>();
     //step 25 back to main to run
